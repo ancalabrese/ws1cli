@@ -1,0 +1,5 @@
+package: ws1
+generate:
+  client: true
+  models: true
+output: ws1/client.gen.go
