@@ -11,6 +11,10 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// Import guards: the generator always emits the same import block regardless of
+// which operations end up in this file. Not every file will use every package
+// (e.g. strings and io are only needed when an operation has a request body).
+// These blank assignments keep all imports alive without any runtime cost.
 var (
 	_ = strings.NewReader
 	_ = io.Discard
