@@ -90,6 +90,3 @@ make gen-cli      # Cobra commands (internal/cli/gen/) via cmd/gen_cli
 make validate
 ```
 
-## License
-
-Apache 2.0 — see [LICENSE](LICENSE).
