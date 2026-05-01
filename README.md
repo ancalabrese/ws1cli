@@ -63,7 +63,7 @@ All commands output pretty-printed JSON.
 
 ```bash
 ws1 mam apps list
-ws1 mdm devices search --serial-number ABC123
+ws1 mdm get-devices-search --platform Android
 ```
 
 ### Global flags
